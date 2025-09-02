@@ -42,11 +42,15 @@
 ##### Actions (CI/CD) – Automate testing, deployment, etc.
 ##### Open Source Community – Millions of public repositories to learn and contribute.
 
+### Branching permissions ----> Developers can work on other branches, but can’t directly change the main branch; changes must be reviewed first.
+
 ### Benefits of GitHub
 ##### Central place for code collaboration.
 ##### Free hosting for public repos.
 ##### Integration with tools (Slack, Jira, CI/CD).
 ##### Popular in open-source development.
+### Widely used in open source
+
 
 ### GitLab
 #### 📌 Definition
@@ -61,6 +65,40 @@
 ##### Security & Monitoring – Built-in security scanning and monitoring.
 ##### Self-Hosted Option – Can run GitLab on your own server (unlike GitHub which is mostly cloud-based).
 ##### DevOps in One Platform – Source code + CI/CD + project management in one place.
+### Widely used in enterprises
+
+### Branching permissions ---->Developers can push to some branches, but moving changes to the main branch needs approval from team members.
+
+
+### Bitbucket
+### 📌 Definition
+##### Bitbucket is a Git-based code hosting platform developed by Atlassian.
+##### Like GitHub and GitLab, it allows developers to store, manage, and collaborate on code repositories.
+#####  It is deeply integrated with Atlassian tools like Jira, Trello, and Confluence, making it popular in companies using the Atlassian ecosystem.
+
+### 🎯 Key Features of Bitbucket
+#####  Git & Mercurial Support – (Initially supported both, now mainly Git).
+#####  Collaboration Tools – Pull requests, inline comments, code reviews.
+#####  CI/CD Pipelines – Built-in Bitbucket Pipelines for continuous integration and deployment.
+#####  Integration with Atlassian Products – Strong Jira, Trello, and Confluence integration.
+#####  Free Private Repositories – Unlike GitHub (in the past), Bitbucket always allowed free private repos.
+#####  Branch Permissions ------>  Developers can push to allowed branches, but important branches have strict rules and need approvals before changes are merged.
+#####  Self-hosted option – Bitbucket Server / Data Center for companies that want to host internally.
+
+
+
+### Saving Changes in Git
+##### In Git, saving your changes means storing snapshots of your files in the repository. This is done in two steps: staging and committing.
+
+#### 1. Check the Status of Your Files
+#### Syntax : <  git status >
+##### Shows which files are modified, staged, or untracked.
+##### Helps you know what will be saved.
+
+#### 2. Stage Changes
+#### Add the files you want to save (prepare them for commit):
+#### Syntax :  <git add [file_name] > this is for spefic file.
+#### Syntax : <git add  . > this is for adding all the entire file in the folder.
 
 
 
