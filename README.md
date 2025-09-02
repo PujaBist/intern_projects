@@ -1,23 +1,17 @@
 # intern_projects
-What is Version Control?
+#### 1.What is Version Control?
+##### Version Control is a system that helps developers track and manage changes to files (especially code) over time.
+##### It allows multiple people to work on the same project without overwriting each other’s work.
+##### Think of it as a "time machine" for your code – you can go back to earlier versions if something goes wrong.
+#### Why Use Version Control?
+##### Track Changes – See what changed, who changed it, and when.
+##### Collaboration – Multiple developers can work on the same project.
+##### Backup – Your code history is safely stored.
+##### Restore – Easily revert to previous versions if you make a mistake.
+##### Branching & Merging – Work on new features without affecting the main project.
 
-Version Control is a system that helps developers track and manage changes to files (especially code) over time.
+<img width="1200" height="800" alt="image" src="https://github.com/user-attachments/assets/52f2fe1c-39d7-42c7-a61e-023b08fa4d8c" />
 
-It allows multiple people to work on the same project without overwriting each other’s work.
-
-Think of it as a "time machine" for your code – you can go back to earlier versions if something goes wrong.
-
-🎯 Why Use Version Control?
-
-Track Changes – See what changed, who changed it, and when.
-
-Collaboration – Multiple developers can work on the same project.
-
-Backup – Your code history is safely stored.
-
-Restore – Easily revert to previous versions if you make a mistake.
-
-Branching & Merging – Work on new features without affecting the main project.
 ### Pre-commit hooks
 #### 1. Definition
 ##### A pre-commit hook is a script that runs automatically before a commit is created in Git.
