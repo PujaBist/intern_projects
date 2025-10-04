@@ -1,0 +1,70 @@
+for rename the branch  name
+======> git branch -m <name>
+
+
+for creating the branch
+====>> git branch < branch_name>
+
+
+for switching to the antoher branch 
+-=====> git checkout <branch_name>
+
+
+for checking branches in local
+=====> git branch
+
+*<branch_name> represents current branch
+
+for checking branches in remote
+=====> git branch
+
+
+for checking branches in remote and  local
+=====> git branch -a
+ 
+
+kun remote repo sng connected cha vaner vaner dekhaunch
+=====> git remote -v
+
+Undoing changes 
+If you modified a file but haven’t staged it yet and want to discard changes:
+==> meaning hamle locally kunai file add garney 
+but add gareko xaen 
+tyo file wrong raexh we want for delete then
+tracked  hunai parch
+=====>git restore <file>
+
+
+
+for discard changes in all file
+  ==>git restore .
+
+
+If you accidentally staged a file but don’t want it in the next commit:
+
+===> git restore --staged <file>
+
+
+
+Undo last commit (keep staged)	===> git reset --soft HEAD~1
+yo le file lai staged nai rakxh  after reset ..
+
+
+Undo last commit (unstage)===> git reset HEAD~1
+yo le file lai unstage banaidinch  
+
+
+Undo last commit (discard all)====>git reset --hard HEAD~1
+yo le t jhan purae file nai delete gardinch   remote bat(from computer)
+
+
+
+git merge <branch_main>
+
+
+
+git rebase is used when a single person is making project
+
+and 
+
+git merge is used when a team is working on a project
