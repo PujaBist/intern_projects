@@ -1,0 +1,189 @@
+  🔹 1. print
+
+print() displays the result on the screen (console).
+
+It does not give the value back to the program.
+
+Useful for debugging or showing output.
+
+
+🔹 2. return
+
+return gives the value back to the caller.
+
+The value can be stored, reused, or passed to another function.
+
+🔹 What is Logging?
+
+Logging means recording messages about what your program is doing while it runs.
+
+It helps you track events, debug errors, and understand the flow of your program.
+
+Instead of just using print(), developers use the logging module because it’s more powerful.
+
+🔹 Why not just use print()?
+
+print() only shows messages on the screen.
+
+But logging can:
+✅ Save messages to a file
+✅ Show messages with different importance levels (info, warning, error, etc.)
+✅ Be turned on/off without changing your code
+
+###
+"print() is only for displaying values, while return is used to 
+pass the result back from a function so it can be used later in 
+the program."
+###
+
+
+ 🔹  Explain local vs global variables in Python functions.
+Feature		       Local Variable		        Global Variable
+Defined			Inside a function		Outside all functions
+Scope			Only inside that function	Entire program
+Lifetime		Created when function starts,   destroyed when it ends	Exists until program ends
+Change inside func?	Yes, freely		Must use global keyword
+###"Local variables exist only inside a function, while global variables are accessible throughout the program. If we want to modify a global
+ variable inside a function, we need to use the global keyword."###
+
+
+🔹 What are *args and **kwargs?
+
+*args (Arguments)
+
+Used to pass a variable number of positional arguments (like a list).
+
+Inside the function, args is a tuple.
+
+### JATI ota argument pathauna milch
+**kwargs (Keyword Arguments)
+
+Used to pass a variable number of keyword arguments (like a dictionary).
+
+Inside the function, kwargs is a dict.
+### **kwargs lets a function accept a flexible number of keyword arguments,
+IT DOESNT CARE about order or position of argument because it gives value to the argument with key.
+
+
+
+#file handling
+while writing the file  if the file doesn't exist  it create and write in that file
+# Open file in write mode ('w'), creates file if not exist
+with open("example.txt", "w") as file:
+    file.write("Hello, Puja!\n")
+    file.write("Python is fun.\n")
+
+
+1. read()
+
+Reads the entire content of the file as a single string.
+
+Can also take an optional number of characters to 
+
+🔹 2. readline()
+
+Reads one line at a time.
+
+You can call it multiple times to read subsequent lines.
+🔹 3. readlines()
+
+Reads all lines and returns them as a list of strings.
+
+Each element in the list is one line, including newline characters.
+
+
+🔹 Quick Comparison Table
+Method		Reads			Returns Type			Use Case
+read()		Whole file		String	Small files, 		entire content
+readline()	One line at a time	String	Processing file	 	line by line
+readlines()	All lines at once	List of Strings			When you need all lines as a list
+
+4️⃣ Modes of File Opening
+Mode	Meaning				Example Use
+'r'	Read only			open("file.txt","r")
+'w'	Write only (overwrite)		open("file.txt","w")
+'a'	Append				open("file.txt","a")
+'r+'	Read and write			open("file.txt","r+")
+ 
+
+
+
+
+
+🔹 What is a Module in Python?
+
+👉 A module is simply a Python file (.py) that contains functions, variables, or classes you can reuse in other programs.
+
+Built-in Modules → already provided by Python (like math, random, os).
+
+User-defined Modules → modules that you create yourself.
+
+🔹 Why use Modules?
+
+✅ Code reusability
+✅ Organizing large projects
+✅ Avoid rewriting same functions again
+✅ Easy debugging and maintenance
+
+
+🔹 What is a Package?
+
+👉 A package is a collection of modules (multiple .py files) kept inside a folder.
+
+It must contain a special file called __init__.py (can be empty, but tells Python “this is a package”).
+
+Packages help you organize large projects
+
+🔹 Difference Between Module vs Package
+Module					Package
+A single .py file			A folder containing multiple modules
+Smaller unit of code reuse		Bigger unit for organizing projects
+Example: math.py			Example: numpy (a package with many modules)
+
+🔹 Real-life Examples of Packages
+
+numpy → package for numerical computing
+
+pandas → package for data analysis
+
+sklearn → package for machine learning
+
+flask/django → packages for web development
+
+
+
+
+What is Exception Handling?
+
+👉 Errors are problems in a program (e.g., syntax error, logical error).
+👉 Exceptions are special errors that occur while the program is running (runtime errors).
+example 
+print(10 / 0)   # ZeroDivisionError
+print(int("abc"))  # ValueError
+
+
+If you don’t handle them → program crashes.
+If you handle them → program continues smoothly.
+
+🔹 Keywords in Python Exception Handling
+
+try → block of code where error might occur.
+
+except → block to handle the error.
+
+else → runs if no error occurs.
+
+finally → always runs (whether error or not).
+
+
+🔹 Key Rules:
+
+Order matters. Python will match the first suitable except.
+
+Only one except runs.
+
+If no matching except, the program will crash.
+
+Best practice → always put specific exceptions first, and Exception (general) last.
+
+   
