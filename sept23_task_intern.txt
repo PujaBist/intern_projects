@@ -1,0 +1,130 @@
+1️ Logging
+
+What it is: Logging is a way to record events, errors, or messages in a program instead of just printing to console.
+
+Why use it: Helps debug, track program flow, and is better than using print() in production.
+
+Example:
+import logging
+
+logging.basicConfig(level=logging.INFO)
+logging.info("Program started")
+logging.warning("This is a warning")
+logging.error("Something went wrong")
+
+
+Output:
+
+INFO:root:Program started
+WARNING:root:This is a warning
+ERROR:root:Something went wrong
+
+
+✅ Tip: logging is widely used in real Python projects instead of print().
+
+2️  Debugging
+
+What it is: Finding and fixing errors in your code.
+
+Tools in Python:
+
+print() statements (simple way)
+
+Debugger in IDEs (PyCharm, VSCode, Jupyter)
+
+pdb module for interactive debugging
+
+Example using pdb:
+import pdb
+
+x = 10
+y = 0
+pdb.set_trace()  # program stops here
+z = x / y        # you can inspect variables before crash
+
+3️   requirements.txt & README.md
+requirements.txt
+
+Lists all Python packages needed for the project.
+
+Install packages with:
+
+pip install -r requirements.txt
+
+Example:
+numpy==1.25.0
+pandas==2.1.0
+matplotlib==3.8.0
+
+README.md
+
+Markdown file explaining your project.
+
+Usually contains:
+
+Project name
+
+Description
+
+How to install & run
+
+Usage examples
+
+Example content:
+
+# My Python Project
+This project predicts student performance using machine learning.
+
+## Installation
+pip install -r requirements.txt
+
+## Usage
+python main.py
+
+4️ Python Project Structure
+
+A good structure makes projects maintainable and professional:
+
+my_project/
+│
+├── main.py            # main program
+├── my_package/        # custom modules
+│   ├── __init__.py
+│   ├── module1.py
+│   └── module2.py
+├── requirements.txt
+├── README.md
+└── .env               # environment variables
+
+5️ .env
+
+What it is: File to store sensitive or environment-specific data like API keys, database passwords.
+
+Why use it: Don’t hardcode secrets in code.
+
+Access in Python: Using python-dotenv package
+
+Example .env
+API_KEY=abcd1234
+DB_PASSWORD=pass123
+
+Access in Python
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+api_key = os.getenv("API_KEY")
+print(api_key)  # abcd1234
+
+
+✅ Interview tip:
+
+requirements.txt → “how to install packages for my project”
+
+.env → “how to safely store secrets”
+
+README.md → “explain my project to others”
+
+Logging & Debugging → “how I track and fix problems”
+
+Project structure → shows professionalism
