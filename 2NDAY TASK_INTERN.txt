@@ -1,0 +1,303 @@
+What is Agile Methodology?
+
+Agile is a project management and software development approach that focuses on:
+Breaking work into small, manageable parts (iterations or sprints)
+Delivering working product quickly and improving it step by step
+Being flexible and adapting to changes
+Continuous collaboration between team and customer
+It values people and interactions more than strict processes, and working software more than heavy documentation.
+
+
+
+
+🛠️ How Agile is Used in Real-Life Projects
+Let’s take an example of a Student Performance Prediction System (similar to your project 😉).
+
+🔄 Agile Process in Action:
+Requirement Gathering (Backlog Creation)
+The team lists features: login, student data upload, ML model prediction, result visualization.
+Sprint Planning
+Sprint 1 (2 weeks): Design UI + basic login system
+Sprint 2: Data upload and preprocessing
+Sprint 3: Train ML model & show prediction results
+Sprint 4: Integrate everything + deploy
+Daily Standups
+15-min daily meeting:
+What did I do yesterday?
+What will I do today?
+Any blockers?
+
+Sprint Review
+
+At the end of each sprint, the team demos the feature to stakeholders (e.g., show working login).
+Sprint Retrospective
+Team reflects: “What went well? What needs improvement?”
+Incremental Delivery
+By end of Sprint 2 → Stakeholders already see a working partial system.
+Final product evolves step by step, with continuous feedback.
+
+✅ Real-Life Benefits of Agile
+Faster delivery of usable product
+Flexibility to change requirements anytime
+Better quality due to continuous testing & feedback
+Customer satisfaction because they see progress early
+Team motivation since progress is visible
+
+12 Principles of Agile
+
+1.Customer Satisfaction First
+==>Deliver software early and continuously to keep the customer happy.
+@@ YASKO meaning
+==>What it Means:
+Don’t wait until the end of the whole project to show results.
+Deliver small working parts of the project frequently (every sprint).
+This way, the customer sees progress, gives feedback early, and stays happy.
+
+2.Welcome Change
+==>Even if requirements change late, Agile adapts.
+@@yasko meaning
+===>Even if the customer changes requirements late in the project, the Agile team accepts and adapts.
+The goal is to deliver what the customer really needs, not just what was planned at the start.
+
+3.Frequent Delivery
+==> Deliver working software in short cycles (sprints).
+@@yasko meaning
+Instead of delivering the whole project at the very end, Agile delivers small, usable parts of the software frequently (every 1–4 weeks).
+Each delivery = a working version of the product (not just theory, not just design).
+This ensures faster feedback, fewer risks, and visible progress.
+
+
+4.Collaboration
+Developers, testers, and business people work together daily.
+
+
+5.Motivated Teams
+Build projects around motivated individuals and give them trust.
+
+
+6.Face-to-Face Communication
+The most effective way to share info is direct conversation (or video call in remote teams)
+
+7.Working Software = Progress
+==>Progress is measured by working features, not documents.
+@@yasko meaning
+In Agile, the real proof of progress is software that works, not how many pages of documents, plans, or reports are written.
+Documents are useful, but they don’t make the customer happy — a working feature does.
+So instead of saying “We completed the design document”, the team should show “Here’s the login system, it works.”
+
+
+8.Sustainable Development
+Teams should maintain a steady pace (no burnout).
+@@yasko meaning
+Work should be planned so that the team can deliver continuously without getting exhausted.
+No overloading team members with too much work in one sprint.
+The project should move at a balanced speed — fast enough to deliver, but not so fast that people burn out.
+Healthy pace = better quality + long-term productivity
+
+
+
+9.Technical Excellence
+Focus on quality code and good design for long-term success.
+@@yasko meaning
+Agile encourages teams to write high-quality, clean code and use good practices.
+Focus on long-term maintainability of the software, not just “make it work now.”
+Better design and code = fewer bugs, easier updates, and smoother future development
+
+
+10.Simplicity
+Do only what’s needed. Avoid unnecessary work.
+@@yasko meaning 
+Don’t overcomplicate the project or add features that aren’t required.
+Focus on what delivers value to the customer right now.
+Keep code, design, and processes simple and efficient.
+
+
+11.Self-Organizing Teams
+Teams should decide how to do work themselves, not just follow orders.
+@@yasko meaning
+The team is trusted to plan and manage their own work.
+They decide how to implement tasks, choose tools, and solve problems.
+Managers don’t micromanage; they support the team instead.
+==> sabae tiny tiny details yo function yeasri lekha yoa vayena vayena yastw garyo vney worker feel restricted. 
+and it give pressure to the manager also. yo vanda t baru manger tell i need login page yastw yatsw
+ fetaure haru rakh if you feel doubt then come to me
+Encourages ownership, creativity, and accountability.
+==> jab micro mangement hudaena tab team feel responsible they focused how to provide better quality software,
+ their creativity also increases ,
+they are alsoaccountable not only the manager
+
+12.Reflection and Improvement
+After each sprint, teams review and improve their process.
+@@yasko meaning
+At the end of every sprint, the team looks back at what happened:
+What went well? ✅
+What problems or challenges came up? ⚠️
+How can we do better next time? 💡
+This meeting is called a Sprint Retrospective.
+The goal is continuous improvement — both for the product and the way the team works.
+
+What is Scrum?
+Scrum is a framework to implement Agile.
+It helps teams organize work, collaborate, and deliver projects in short cycles (called sprints).
+Scrum is especially popular for software development, but it can be used in other projects too
+
+
+
+scrum le yi sablai manage garch
+Key Concepts of Scrum
+
+Roles
+Product Owner 📝 → Represents the customer, decides what features are needed, maintains the product backlog.
+Scrum Master 🛠 → Guides the team, removes obstacles, ensures Scrum is followed.
+Development Team 👩‍💻 → Builds the product, self-organizing, decides how to do the work.
+
+Artifacts
+Product Backlog 📋 → Complete list of features, tasks, or requirements for the project.
+Sprint Backlog 🏃 → Selected tasks from the product backlog for the current sprint.
+Increment 🚀 → The working product delivered at the end of the sprint.
+
+Events / Ceremonies
+Sprint Planning 🗓 → Decide what to do in the sprint.
+Daily Standup ⏱ → 15-min daily meeting: what I did, what I’ll do, blockers.
+Sprint Review 👀 → Show completed work to stakeholders.
+Sprint Retrospective 🔄 → Reflect on what went well and how to improve.
+
+Sprints
+Usually 1–4 weeks, fixed duration, focused on completing the sprint backlog.
+
+
+Scrum is a way to organize work in small steps, get things done efficiently, and improve continuously.
+Work is divided into sprints (short time periods, 1–4 weeks).
+Team roles ensure clarity:
+Product Owner → decides what needs to be done
+Scrum Master → helps team remove problems and follow the process
+Team Members → decide how to do the work
+Progress is tracked daily with short meetings.
+At the end of each sprint, you deliver something usable and review how to improve.
+
+2️⃣ How to Use Scrum in Daily Life
+Even if you’re not in software, Scrum can help you manage any project or goal.
+Example 1: Studying for Exams
+Product Owner → You (decide subjects/topics to cover)
+Scrum Master → Your mentor/teacher or even yourself (remove distractions, track progress)
+Team → You (plan how to study)
+
+Steps:
+Backlog → List all topics you need to study.
+Sprint Planning → Pick topics to study this week (1–2 weeks).
+Daily Standup → Quick check: “Yesterday I studied X, today I will study Y, I’m stuck on Z.”
+Sprint Review → At the end of the week, check what you learned.
+Retrospective → Ask: “What went well? What can I improve for next week?”
+
+
+
+
+What is a Sprint?
+@@ sprint =pARTS OF PROJECT
+In Agile/Scrum, a Sprint is a short, fixed time period (usually 1–4 weeks).
+During this period, the team focuses on completing a set of tasks from the backlog.
+At the end of the sprint, the team delivers a working product or feature.
+
+Key Points:
+Fixed duration
+Focused on a small, achievable goal
+Delivers something usable
+Reviewed and improved after completion
+
+🔎 Real-Life Analogy
+Example 1: Preparing for an Exam
+Whole exam prep = the project
+Sprint = 1-week study plan for one subject or topic
+Sprint 1: Study Math chapters 1–3
+Sprint 2: Study Science chapters 1–2
+Sprint 3: Revise previous topics + practice questions
+At the end of each sprint, you have a completed portion of preparation → ready to test yourself or revise.
+
+### Instead of waiting months for the final product,
+ you deliver results step by step, 
+get feedback, and improve continuously.
+
+
+
+What is a Backlog?
+In Agile/Scrum, a backlog is a list of things that need to be done for a project.
+Think of it as a to-do list, but for the whole project.
+
+There are two main types:
+
+1️⃣ Product Backlog 📋
+Complete list of all features, tasks, or requirements for the project.
+Maintained by the Product Owner.
+Continuously updated as new requirements or changes come.
+
+Example (Student Performance Prediction System):
+Login system
+Upload student data
+ML model for prediction
+Visualization/reporting
+Export PDF reports
+
+2️⃣ Sprint Backlog 🏃
+Subset of the product backlog selected for a specific sprint.
+Contains tasks the team plans to complete in the current sprint.
+Helps the team stay focused.
+
+Example (Sprint 1, 2 weeks):
+Login system (design + code)
+Database setup for storing student data
+Test login functionality
+
+🔑 Key Idea:
+
+Backlogs = lists of work
+Product Backlog = everything to do
+Sprint Backlog = what we will do in this sprint
+
+
+**Real-Life Analogy
+Planning a Party:
+Product Backlog: List of all tasks: invite friends, buy decorations, cook food, order cake, arrange music.
+Sprint Backlog (1 week before party): Tasks chosen for this week: buy decorations + invite friends.
+
+@@@Sprint Backlog = “Tasks we will do in THIS sprint”
+Imagine the Product Backlog is a big to-do list for the whole project.
+A Sprint Backlog is like picking a few items from that big list that the team will 
+focus on completing in the current sprint.
+Only tasks in the sprint backlog are worked on during that sprint.@@@
+
+
+What is a Story Point?
+A Story Point is a way to measure the effort or complexity of a task in Agile.
+It doesn’t measure time (hours or days) directly.
+Instead, it measures how hard or complex a task is compared to others.
+
+🔑 Key Idea:
+Small task = 1 story point
+Medium task = 3 story points
+Large/complex task = 5–8 story points
+Think of it like a difficulty score for each task.
+
+🔎 Example (Student Performance Prediction System)
+Tasks and Story Points:
+Design login page → 2 points (simple)
+Upload student data → 3 points (moderate)
+Build ML prediction model → 8 points (complex)
+Visualization & reports → 5 points (moderate/complex)
+Team uses story points to plan how much work can fit in a sprint.
+
+🔑 Analogy (Daily Life)
+Cleaning the kitchen → 2 points (easy)
+Cleaning the garage → 8 points (hard/long)
+Laundry + folding clothes → 3 points (medium)
+Helps you know what you can finish in a day/sprint based on difficulty.
+
+✅ Why Story Points are Useful
+Avoid estimating in hours, which can be inaccurate
+Helps team balance workload in a sprint
+Makes planning and forecasting easier
+
+
+##STORY POINT ARE VARY FROM PEOPLE TO PEOPLE
+
+
+
